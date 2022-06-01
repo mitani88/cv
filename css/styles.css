@@ -1,0 +1,204 @@
+body {
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-size: 4rem;
+  /*6.625rem; /* 100% = 16px */
+  /* 1em = 16px */
+  color: #ffcf3f;
+  font-family: 'Ubuntu';
+  line-height: 2;
+}
+
+h2 {
+  font-size: 3.5rem;
+  color: #11999E;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-size: 1rem;
+}
+
+p {
+  line-height: 2;
+  font-size: 1.25rem;
+}
+
+a {
+  color: #000B49;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+  border-color: #524A4E;
+  border-style: dotted none none;
+  border-width: 10px;
+  width: 5%;
+  margin: 100px auto 100px auto;
+  background-color: #fff;
+}
+
+#TOP-CONTAINER {
+  background-color: #AEFEFF;
+}
+
+.intro {
+  width: 70%;
+  margin: auto;
+}
+
+.container-fluid {
+  padding: 2% 15%;
+}
+
+.nav-item .nav-link {
+  font-size: 1rem;
+}
+
+.navbar-nav .nav-item {
+  padding: 0;
+}
+.navbar-nav{}
+
+.programmer {
+  color: #3773a6;
+}
+
+.pro {
+  font-size: 3.5rem;
+  color: #ffcf3f;
+}
+
+.navbar .navbar-brand {
+  font-size: 3vw;
+  font-weight: bold;
+  color: #3773a6;
+}
+
+.navbar .navbar-brand:hover {
+  color: #3773a6;
+  cursor: default;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.nav-item {
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+  margin-left: 50px;
+}
+
+.navbar-toggler {
+  font-size: 2vw;
+}
+
+/*Middle container*/
+#MIDDLE-CONTAINER {
+  text-align: center;
+}
+
+.profile {
+  margin: 3% auto;
+}
+
+.skills {
+
+  padding: 50px 0;
+}
+
+.my-skills {
+  margin-bottom: 50px;
+}
+
+.my_image {
+  margin: 2% auto;
+}
+.row{
+  margin-right: 0;
+}
+.logo {
+  width: 4.5rem;
+  margin-bottom: 2%;
+}
+
+.fa-circle-plus, .fa-circle-minus {
+  color: #3773a6;
+  margin: 5% auto;
+}
+/************* CARDS *************/
+.card-row{
+  text-align: center;
+  margin: 100px;
+}
+.card-img-top{
+  height: 200px;
+}
+.card-title{
+  font-size: 200%;
+  /*6.625rem; /* 100% = 16px */
+  /* 1em = 16px */
+  color: #ffcf3f;
+  font-family: 'Ubuntu';
+  line-height: 2;
+}
+.col{
+  text-align: center;
+  width: 300px;
+  margin-left: 5%;
+}
+
+.icon {
+  font-size: 150%;
+}
+
+.circle:hover, .icon:hover {
+  color: #0a66c2;
+}
+
+.link:hover {
+  color: #0a66c2;
+}
+
+.project-img {
+  width: 250px;
+}
+.project-title{
+  font-size: 3rem;
+}
+.get_in_touch_section {
+  background-color: #AEFEFF;
+  height: 350px;
+  padding: 50px 0;
+}
+
+#LOWER-CONTAINER {
+  text-align: center;
+}
+
+.copy-right {
+  color: #000B49;
+}
+@media (max-width: 1028px) {
+    h1{
+      font-size: 2rem;
+    }
+    h2, .pro, .project-title{
+      font-size: 1.5rem;
+    }
+    p{
+      font-size: 1rem;
+    }
+}
