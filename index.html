@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Marwan Itani</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="icon" href="favicon.ico">
   <!--        GOOGLE FONTS-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,6 +20,7 @@
   <script src="https://kit.fontawesome.com/1422f5a84a.js" crossorigin="anonymous"></script>
   <!--MY CSS-->
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/mobile.css">
 
 </head>
 
@@ -26,8 +29,8 @@
     <!-- ********Nav******** Bar -->
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">mteitani</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand brand" href="#">mteitani</a>
+        <button class="navbar-toggler hamburger" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
@@ -50,7 +53,7 @@
             <h1 class="text-center">I'm Marwan</h1>
             <h2 class="programmer text-center">a <span class="pro"><strong>pro</strong></span>grammer
             </h2>
-            <img class="img-fluid rounded mx-auto d-block" src="images/summer.png" alt="mountain-img">
+            <img class="img-fluid rounded mx-auto d-block mountain" src="images/summer.png" alt="mountain-img">
           </div>
         </div>
       </div>
@@ -59,15 +62,15 @@
   <!--        MIDDLE-SECTION-->
   <section id="MIDDLE-CONTAINER">
     <div class="profile">
-      <img class="my_image img-fluid" src="images/marwan_pic.png" alt="profile-pic">
-      <h2>Hello</h2>
+      <img class="my_image" src="images/marwan_pic.png" alt="profile-pic">
+      <h2 class="section-title">Hello</h2>
       <p class="intro">Thank you for taking some of your precious time to inspect my humble website.
         If you have any feedback make sure to share it with me in the contact me below. 😊</p>
     </div>
     <hr>
     <!-- ******** My Skills ********** -->
     <div class="skills">
-      <h2 class="my-skills" id="myskills">My Skills</h2>
+      <h2 class="section-title" id="myskills">My Skills</h2>
       <div class="row">
         <div class="col-3">
           <img class="logo img-fluid" src="images/python.png" alt="python-sticker">
@@ -112,9 +115,9 @@
       </div>
     </div>
     <hr>
-    <h2 id="myprojects">My Projects</h2>
+    <h2 class="section-title" id="myprojects">My Projects</h2>
     <div class="card-row row row-cols-1 row-cols-md-2 g-4">
-      <div class="col">
+      <div class="col-lg-3">
         <div class="card h-100">
           <a href="TinDog\Tindog.html"><img src="images\tindog.png" class="card-img-top" alt="TinDog"></a>
           <div class="card-body">
@@ -123,7 +126,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col-lg-3">
         <div class="card h-100">
           <a href="Dicee Challenge\dicee.html"><img src="images\dice_image.jpg" class="card-img-top" alt="dice"></a>
           <div class="card-body">
@@ -132,7 +135,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col-lg-3">
         <div class="card h-100">
           <a href="Drum Kit\drumKit.html"><img src="images\drumss.png" class="card-img-top" alt="drums"></a>
           <div class="card-body">
@@ -141,9 +144,7 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="card-row row row-cols-1 row-cols-md-2 g-4">
-      <div class="col">
+      <div class="col-lg-3">
         <div class="card h-100">
           <a href="Simon Game\index.html"><img src="images\simon.png" class="card-img-top" alt="simon"></a>
           <div class="card-body">
@@ -153,6 +154,7 @@
         </div>
       </div>
     </div>
+
     <!-- <div class="row">
       <div class="col-lg-4 col-md-6">
         <h1 class="project-title">TinDog</h1>

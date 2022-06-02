@@ -1,0 +1,57 @@
+@media (max-width: 1028px) {
+  h3 {
+    font-size: 0.75rem;
+  }
+
+  hr {
+    border-width: 5px;
+    width: 50px;
+    margin: 50px auto 50px auto;
+    background-color: #fff;
+  }
+
+  .navbar .navbar-brand {
+    font-size: 5vw;
+  }
+
+  .nav-item .nav-link {
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+
+  .intro {
+    font-size: 0.75rem;
+  }
+
+  .my_image {
+    margin: 10% auto;
+    width: 30vw;
+  }
+
+  .logo {
+    width: 10vw;
+  }
+
+  .card-img-top {
+    height: 30vw;
+  }
+
+  .card-title {
+    font-size: 1.5em;
+  }
+
+  .card-row {
+    margin: 50px 100px;
+  }
+
+  .card-text {
+    font-size: 0.75rem;
+  }
+
+  .fa-circle-plus, .fa-circle-minus {
+    font-size: 1.5rem;
+  }
+.section-title{
+  margin-bottom: 50px;
+}
+}

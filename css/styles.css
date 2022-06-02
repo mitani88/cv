@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 5vw;
   /*6.625rem; /* 100% = 16px */
   /* 1em = 16px */
   color: #ffcf3f;
@@ -12,14 +12,19 @@ h1 {
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 4vw;
   color: #11999E;
   font-weight: normal;
 }
 
+.pro {
+  font-size: 4vw;
+  color: #ffcf3f;
+}
+
 h3 {
   color: #11999E;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 p {
@@ -39,8 +44,8 @@ a:hover {
 hr {
   border-color: #524A4E;
   border-style: dotted none none;
-  border-width: 10px;
-  width: 5%;
+  border-width: 20px;
+  width: 100px;
   margin: 100px auto 100px auto;
   background-color: #fff;
 }
@@ -52,6 +57,7 @@ hr {
 .intro {
   width: 70%;
   margin: auto;
+  font-size: 1.5rem;
 }
 
 .container-fluid {
@@ -59,7 +65,7 @@ hr {
 }
 
 .nav-item .nav-link {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .navbar-nav .nav-item {
@@ -69,19 +75,21 @@ hr {
 
 .programmer {
   color: #3773a6;
+  margin-bottom: 40px;
 }
 
-.pro {
-  font-size: 3.5rem;
-  color: #ffcf3f;
+.hamburger{
+  width: 20%;
+  height: 30px;
+  padding: auto;
 }
+
 
 .navbar .navbar-brand {
   font-size: 3vw;
   font-weight: bold;
   color: #3773a6;
 }
-
 .navbar .navbar-brand:hover {
   color: #3773a6;
   cursor: default;
@@ -113,35 +121,32 @@ hr {
 .profile {
   margin: 3% auto;
 }
-
-.skills {
-
-  padding: 50px 0;
+.section-title{
+  margin-bottom: 100px;
 }
+/* .skills {
 
-.my-skills {
-  margin-bottom: 50px;
-}
+  padding: 50px 50px;
+} */
 
 .my_image {
-  margin: 2% auto;
+  margin: 10% auto;
+  width: 15vw;
 }
-.row{
-  margin-right: 0;
-}
+
 .logo {
-  width: 4.5rem;
+  width: 8vw;
   margin-bottom: 2%;
 }
 
 .fa-circle-plus, .fa-circle-minus {
   color: #3773a6;
-  margin: 5% auto;
+  margin: 10% auto;
+  font-size: 3rem;
 }
 /************* CARDS *************/
 .card-row{
   text-align: center;
-  margin: 100px;
 }
 .card-img-top{
   height: 200px;
@@ -190,15 +195,4 @@ hr {
 
 .copy-right {
   color: #000B49;
-}
-@media (max-width: 1028px) {
-    h1{
-      font-size: 2rem;
-    }
-    h2, .pro, .project-title{
-      font-size: 1.5rem;
-    }
-    p{
-      font-size: 1rem;
-    }
 }
